@@ -7,6 +7,7 @@
 
     <string name="calculate_bt">Calculate</string>
 
-    <string name="invalid_number">Enter a valid number</string>
+    <string name="invalid_first_number">Enter a valid first number</string>
     <string name="invalid_symbol">Enter a operation (+,-,x,/)</string>
+    <string name="invalid_second_number">Enter a valid second number</string>
 </resources>

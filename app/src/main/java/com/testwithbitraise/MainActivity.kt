@@ -26,13 +26,13 @@ class MainActivity : AppCompatActivity() {
 
                 when (val result = converter.convert()) {
                     ExpressionResult.InvalidFirstNumber -> {
-                        loadErrors(getString(R.string.invalid_number), "", "")
+                        loadErrors(getString(R.string.invalid_first_number), "", "")
                     }
                     ExpressionResult.InvalidOperation -> {
-                        loadErrors( "", getString(R.string.invalid_symbol), "")
+                        loadErrors("", getString(R.string.invalid_symbol), "")
                     }
                     ExpressionResult.InvalidSecondNumber -> {
-                        loadErrors( "", "", getString(R.string.invalid_number))
+                        loadErrors("", "", getString(R.string.invalid_second_number))
                     }
                     is ExpressionResult.SuccessfulResult -> {
                         loadErrors("", "", "")
