@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1033163962248",
+    "project_id": "testwithbitrise",
+    "storage_bucket": "testwithbitrise.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033163962248:android:61ecfb636347ff23012c3d",
+        "android_client_info": {
+          "package_name": "com.testwithbitraise"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1033163962248-dkk8jc0vgcetk36moc17fps4rinhhkmk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHDZl_1d6plPgNjpSnL-FmLRCY47F-Qj0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1033163962248-dkk8jc0vgcetk36moc17fps4rinhhkmk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
